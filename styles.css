@@ -90,6 +90,8 @@ color: #ffffff;
   .Links {
     width: 167px;
     height: 18px;
+    padding: 13px 33px 12px 34px;
+    border-radius: 4px;
     font-family: Quicksand;
     font-size: 18px;
     font-weight: bold;
@@ -99,14 +101,7 @@ color: #ffffff;
     line-height: normal;
     letter-spacing: normal;
     color: #ffffff;
-  }
-
-  .Rectangle {
-    width: 167px;
-    height: 48px;
-    margin: 12.5px 208.5px 0 2px;
-    padding: 6.5px 16.5px 6px 17px;
-    border-radius: 4px;
+    text-decoration: none;
     background-color: #de6c17;
   }
 
