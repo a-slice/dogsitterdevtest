@@ -1,0 +1,164 @@
+.banner {
+    /* background: cover; */
+    position:relative;
+    width:100%;
+    /* max-width: 100%; */
+    max-width: 1440px;
+    max-height:600px;
+    height:auto;
+    background-image: linear-gradient(to left, var(--white-0), var(--black) 35%), url(assets/main-banner.png);
+    background-position: center center;
+    float:left
+}
+
+.wrapper {
+    position:relative
+}
+
+.content {
+    width:100%;
+    float: left;
+}
+
+:root {
+    --black: #0000002a;
+    --white-0: rgba(255, 255, 255, 0);
+  }
+
+@font-face {
+font-family: Quicksand;
+src: local(Quicksand-Bold),
+    url(/path/to/Quicksand-Bold.woff2) format("woff2"),
+    url(/path/to/Quicksand-Bold.woff) format("woff"),
+    url(/path/to/Quicksand-Bold.ttf) format("truetype");
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+}
+.Text-Style {
+font-family: Quicksand;
+font-size: 22.5px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #ffffff;
+}
+  
+.Desktop {
+    width: 100%;
+    height: 765px;
+    padding: 0.5px 0 50.5px;
+  }
+
+.Rectangle-2 {
+    width: 100%;
+    height: 100%; 
+    margin: 0 0 0px;
+    padding: 12% 44% 15% 15%;
+  }
+
+  .Banner-heading {
+    width: 700px;
+    height: 45px;
+    margin: 0 93px 5px 0;
+    font-family: Quicksand;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .Banner-sub-heading {
+    width: 550px;
+    height: 80px;
+    margin: 10px 0 12.5px 2px;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 34px;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .Links {
+    width: 167px;
+    height: 18px;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .Rectangle {
+    width: 167px;
+    height: 48px;
+    margin: 12.5px 208.5px 0 2px;
+    padding: 6.5px 16.5px 6px 17px;
+    border-radius: 4px;
+    background-color: #de6c17;
+  }
+
+  .Learn-More-Copy-3 {
+    width: 50px;
+    height: 11.5px;
+    font-family: Quicksand;
+    font-size: 9px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .Group-2 {
+    position: absolute;
+    width: auto;
+    height: 70px;
+    /* size: cover; */
+    margin: -70px 0 0px;
+    object-fit: contain;
+    position: center center;
+  }
+
+.Heading-one {
+    width: 50%;
+    height: 28px;
+    margin: 5px 187.5px 35px 188px;
+    font-family: Quicksand;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: center;
+    color: #36413c;
+}
+
+.Heading-3 {
+    width: 50%;
+    height: 51px;
+    margin: 5px 187.5px 35px 188px;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: center;
+    color: #5e6e66;
+}
